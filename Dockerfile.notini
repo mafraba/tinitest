@@ -1,0 +1,4 @@
+FROM ruby:2.4
+
+COPY sleep15* ./
+RUN chmod +x sleep15*
